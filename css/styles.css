@@ -1130,6 +1130,7 @@ body
     border-color: #87CEEB;
     border-radius: 10px;
     padding: 40px 20px;
+    backface-visibility: hidden;
 }
 
 /* "Why choose Futuro Sonho" Page (Cards' front inner) */
@@ -1140,7 +1141,6 @@ body
     font-size: 20px;
     color: black;
     text-align: center;
-    z-index: 1;
 }
 
 /* "Why choose Futuro Sonho" Page (Cards' back inner) */
@@ -1164,7 +1164,6 @@ body
     margin-top: 5px;
     height: 160px;
     width: 160px;
-    z-index: 999;
 }
 
 /* "Why choose Futuro Sonho" Page (Size of Scrum Image) */
